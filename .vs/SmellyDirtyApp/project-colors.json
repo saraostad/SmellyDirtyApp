@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "05f8f9a1-b7da-4a42-8bb0-61c4d9943fba": {
+      "ProjectGuid": "05f8f9a1-b7da-4a42-8bb0-61c4d9943fba",
+      "DisplayName": "SmellyDirtyApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
