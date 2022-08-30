@@ -1,6 +1,6 @@
-﻿namespace SmellyDirtyApp.UserControls
+﻿namespace SmellyDirtyApp.UserControls.btn
 {
-    partial class ucbtnChangeProfile
+    partial class ucbtnShowResult
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,32 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnEditProfile = new System.Windows.Forms.Button();
+            this.btnSeeResult = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnEditProfile
+            // btnSeeResult
             // 
-            this.btnEditProfile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnEditProfile.Location = new System.Drawing.Point(3, 3);
-            this.btnEditProfile.Name = "btnEditProfile";
-            this.btnEditProfile.Size = new System.Drawing.Size(91, 23);
-            this.btnEditProfile.TabIndex = 23;
-            this.btnEditProfile.Text = "ویرایش پروفایل";
-            this.btnEditProfile.UseVisualStyleBackColor = true;
+            this.btnSeeResult.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSeeResult.Location = new System.Drawing.Point(3, 3);
+            this.btnSeeResult.Name = "btnSeeResult";
+            this.btnSeeResult.Size = new System.Drawing.Size(91, 23);
+            this.btnSeeResult.TabIndex = 18;
+            this.btnSeeResult.Text = "دیدن کارنامه";
+            this.btnSeeResult.UseVisualStyleBackColor = true;
             // 
-            // ucbtnChangeProfile
+            // ucShowResult
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.btnEditProfile);
-            this.Name = "ucbtnChangeProfile";
-            this.Size = new System.Drawing.Size(97, 29);
+            this.Controls.Add(this.btnSeeResult);
+            this.Name = "ucShowResult";
+            this.Size = new System.Drawing.Size(97, 30);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        protected System.Windows.Forms.Button btnEditProfile;
+        private System.Windows.Forms.Button btnSeeResult;
     }
 }

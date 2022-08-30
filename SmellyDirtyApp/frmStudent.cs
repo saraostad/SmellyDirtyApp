@@ -1,4 +1,5 @@
 ﻿using SmellyDirtyApp.UserControls;
+using SmellyDirtyApp.UserControls.btn;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,6 +22,14 @@ namespace SmellyDirtyApp
             ucBasicInfo_StudentCode ucDynamic = new ucBasicInfo_StudentCode();
             pnlucDynamicFild.Controls.Add(ucDynamic);
             ucDynamic.Dock = DockStyle.Fill;
+
+            ucbtnShowResult ucbtnShowResult = new ucbtnShowResult();
+            pnlUserControl.Controls.Add(ucbtnShowResult);
+            ucbtnShowResult.Dock = DockStyle.Left;
+
+            ucbtnOfferClass ucbtnOfferClass = new ucbtnOfferClass();
+            pnlUserControl.Controls.Add(ucbtnOfferClass);
+            ucbtnOfferClass.Dock = DockStyle.Right;
 
 
         }

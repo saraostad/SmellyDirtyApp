@@ -33,14 +33,14 @@
             this.btnCalsSalary = new System.Windows.Forms.Button();
             this.btnRegisterScore = new System.Windows.Forms.Button();
             this.btnOfferCourses = new System.Windows.Forms.Button();
-            this.pnlBaseInfo.SuspendLayout();
+            this.pnlRight.SuspendLayout();
             this.pnlUserControl.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlBaseInfo
             // 
-            this.pnlBaseInfo.Location = new System.Drawing.Point(312, 0);
-            this.pnlBaseInfo.Size = new System.Drawing.Size(232, 262);
+            this.pnlRight.Location = new System.Drawing.Point(312, 0);
+            this.pnlRight.Size = new System.Drawing.Size(232, 262);
             // 
             // btnCloseForm
             // 
@@ -123,8 +123,8 @@
             this.ClientSize = new System.Drawing.Size(544, 262);
             this.Name = "frmTeacher";
             this.Text = "پروفایل استاتید";
-            this.pnlBaseInfo.ResumeLayout(false);
-            this.pnlBaseInfo.PerformLayout();
+            this.pnlRight.ResumeLayout(false);
+            this.pnlRight.PerformLayout();
             this.pnlUserControl.ResumeLayout(false);
             this.pnlUserControl.PerformLayout();
             this.ResumeLayout(false);

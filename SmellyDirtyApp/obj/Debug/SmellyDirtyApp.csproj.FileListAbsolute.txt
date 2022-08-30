@@ -44,6 +44,11 @@ H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.Properties.R
 H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.StudentForm.resources
 H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.TeacherForm.resources
 H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.ucbtnCalcSalary.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.ucbtnChangeProfile.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.ucbtnInsertPoint.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.ucbtnOfferClass.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.btn.ucbtnShowResult.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.textbox.ucWorkingDay.resources
 H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.ucWorkingHoure.resources
 H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.ucBasicInfo_EmployeeCode.resources
 H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.ucBasicInfo_StudentCode.resources
@@ -52,9 +57,3 @@ H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.csproj.Gener
 H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.csproj.CoreCompileInputs.cache
 H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.exe
 H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.pdb
-H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.btn.ucbtnBase.resources
-H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.ucbtnChangeProfile.resources
-H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.ucbtnInsertPoint.resources
-H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.ucbtnOfferClass.resources
-H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.btn.ucbtnChangeProfile.resources
-H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.btn.ucbtnOfferClass.resources

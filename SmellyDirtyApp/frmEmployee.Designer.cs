@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pnlBaseInfo.SuspendLayout();
+            this.pnlRight.SuspendLayout();
             this.SuspendLayout();
             // 
             // frmEmployee
@@ -37,8 +37,8 @@
             this.ClientSize = new System.Drawing.Size(504, 252);
             this.Name = "frmEmployee";
             this.Text = "پروفایل کارمندان";
-            this.pnlBaseInfo.ResumeLayout(false);
-            this.pnlBaseInfo.PerformLayout();
+            this.pnlRight.ResumeLayout(false);
+            this.pnlRight.PerformLayout();
             this.ResumeLayout(false);
 
         }

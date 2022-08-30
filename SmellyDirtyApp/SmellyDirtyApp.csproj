@@ -56,10 +56,10 @@
     <Compile Include="CalcSalaryVisitor\IElement.cs" />
     <Compile Include="CalcSalaryVisitor\IElementVisitor.cs" />
     <Compile Include="CalcSalaryVisitor\SalaryCalculator.cs" />
-    <Compile Include="EmployeeForm.cs">
+    <Compile Include="old Form\EmployeeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EmployeeForm.Designer.cs">
+    <Compile Include="old Form\EmployeeForm.Designer.cs">
       <DependentUpon>EmployeeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="frmStudent.cs">
@@ -101,47 +101,23 @@
     <Compile Include="Models\Teacher.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TeacherForm.cs">
+    <Compile Include="old Form\TeacherForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TeacherForm.Designer.cs">
+    <Compile Include="old Form\TeacherForm.Designer.cs">
       <DependentUpon>TeacherForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="StudentForm.cs">
+    <Compile Include="old Form\StudentForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StudentForm.Designer.cs">
+    <Compile Include="old Form\StudentForm.Designer.cs">
       <DependentUpon>StudentForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\btn\ucbtnBase.cs">
+    <Compile Include="UserControls\btn\ucbtnCalcSalary.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControls\btn\ucbtnBase.Designer.cs">
-      <DependentUpon>ucbtnBase.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\btn\--ucbtnCalcSalary.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\btn\--ucbtnCalcSalary.Designer.cs">
-      <DependentUpon>--ucbtnCalcSalary.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\btn\--ucbtnChangeProfile.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\btn\--ucbtnChangeProfile.Designer.cs">
-      <DependentUpon>--ucbtnChangeProfile.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\btn\--ucbtnInsertPoint.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\btn\--ucbtnInsertPoint.Designer.cs">
-      <DependentUpon>--ucbtnInsertPoint.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\btn\--ucbtnOfferClass.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\btn\--ucbtnOfferClass.Designer.cs">
-      <DependentUpon>--ucbtnOfferClass.cs</DependentUpon>
+    <Compile Include="UserControls\btn\ucbtnCalcSalary.Designer.cs">
+      <DependentUpon>ucbtnCalcSalary.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\btn\ucbtnChangeProfile.cs">
       <SubType>UserControl</SubType>
@@ -149,11 +125,29 @@
     <Compile Include="UserControls\btn\ucbtnChangeProfile.Designer.cs">
       <DependentUpon>ucbtnChangeProfile.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\btn\ucbtnInsertPoint.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\btn\ucbtnInsertPoint.Designer.cs">
+      <DependentUpon>ucbtnInsertPoint.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\btn\ucbtnOfferClass.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControls\btn\ucbtnOfferClass.Designer.cs">
       <DependentUpon>ucbtnOfferClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\btn\ucbtnShowResult.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\btn\ucbtnShowResult.Designer.cs">
+      <DependentUpon>ucbtnShowResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\textbox\ucWorkingDay.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\textbox\ucWorkingDay.Designer.cs">
+      <DependentUpon>ucWorkingDay.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\textbox\ucWorkingHoure.cs">
       <SubType>UserControl</SubType>
@@ -182,7 +176,7 @@
     <EmbeddedResource Include="BaseForm.resx">
       <DependentUpon>BaseForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EmployeeForm.resx">
+    <EmbeddedResource Include="old Form\EmployeeForm.resx">
       <DependentUpon>EmployeeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEmployee.resx">
@@ -206,32 +200,29 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="StudentForm.resx">
+    <EmbeddedResource Include="old Form\StudentForm.resx">
       <DependentUpon>StudentForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TeacherForm.resx">
+    <EmbeddedResource Include="old Form\TeacherForm.resx">
       <DependentUpon>TeacherForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\btn\ucbtnBase.resx">
-      <DependentUpon>ucbtnBase.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\btn\--ucbtnCalcSalary.resx">
-      <DependentUpon>--ucbtnCalcSalary.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\btn\--ucbtnChangeProfile.resx">
-      <DependentUpon>--ucbtnChangeProfile.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\btn\--ucbtnInsertPoint.resx">
-      <DependentUpon>--ucbtnInsertPoint.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\btn\--ucbtnOfferClass.resx">
-      <DependentUpon>--ucbtnOfferClass.cs</DependentUpon>
+    <EmbeddedResource Include="UserControls\btn\ucbtnCalcSalary.resx">
+      <DependentUpon>ucbtnCalcSalary.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\btn\ucbtnChangeProfile.resx">
       <DependentUpon>ucbtnChangeProfile.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\btn\ucbtnInsertPoint.resx">
+      <DependentUpon>ucbtnInsertPoint.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\btn\ucbtnOfferClass.resx">
       <DependentUpon>ucbtnOfferClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\btn\ucbtnShowResult.resx">
+      <DependentUpon>ucbtnShowResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\textbox\ucWorkingDay.resx">
+      <DependentUpon>ucWorkingDay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\textbox\ucWorkingHoure.resx">
       <DependentUpon>ucWorkingHoure.cs</DependentUpon>

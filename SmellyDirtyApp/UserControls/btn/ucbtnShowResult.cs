@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SmellyDirtyApp.UserControls.btn
 {
-    public partial class ucbtnBase : UserControl
+    public partial class ucbtnShowResult : UserControl
     {
-        public ucbtnBase()
+        public ucbtnShowResult()
         {
             InitializeComponent();
         }

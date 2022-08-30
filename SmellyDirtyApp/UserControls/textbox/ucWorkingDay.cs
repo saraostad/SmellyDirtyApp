@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SmellyDirtyApp.UserControls
+namespace SmellyDirtyApp.UserControls.textbox
 {
-    public partial class ucbtnChangeProfile : UserControl
+    public partial class ucWorkingDay : UserControl
     {
-        public ucbtnChangeProfile()
+        public ucWorkingDay()
         {
             InitializeComponent();
         }

@@ -22,7 +22,11 @@ namespace SmellyDirtyApp
         {
             if (!string.IsNullOrWhiteSpace(txtUsername.Text) && !string.IsNullOrWhiteSpace(txtPassword.Text))
             {
-
+                if (!UsersDatabase.Where(q => q.Username.Contains(txtUsername.Text)).Any())
+                {
+                    MessageBox.Show("نام کاربری و کلمه عبور صحیح نمی باشد.");
+                    return;
+                }
                 foreach (var user in UsersDatabase)
                 {
                     CheckUserName userName = new CheckUserName(txtUsername.Text, user);
@@ -65,8 +69,8 @@ namespace SmellyDirtyApp
                     //    }
                     //}
                 }
-                MessageBox.Show("نام کاربری و کلمه عبور صحیح نمیباشد.");
-                return;
+                //MessageBox.Show("نام کاربری و کلمه عبور صحیح نمیباشد.");
+                //return;
             }
             MessageBox.Show("نام کاربری و کلمه عبور اجباری است..");
             return;

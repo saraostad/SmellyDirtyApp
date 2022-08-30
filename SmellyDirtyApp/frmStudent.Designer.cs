@@ -30,25 +30,25 @@
         {
             this.pnlucDynamicFild = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pnlBaseInfo.SuspendLayout();
+            this.pnlRight.SuspendLayout();
             this.pnlUserControl.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlBaseInfo
             // 
-            this.pnlBaseInfo.Controls.Add(this.pnlucDynamicFild);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.tbNationalCode, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.tbMobile, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.tbBirthCertificate, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.tbLastName, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.tbFirstName, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.label5, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.label4, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.label3, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.label2, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.label1, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.btnEditProfile, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.pnlucDynamicFild, 0);
+            this.pnlRight.Controls.Add(this.pnlucDynamicFild);
+            this.pnlRight.Controls.SetChildIndex(this.tbNationalCode, 0);
+            this.pnlRight.Controls.SetChildIndex(this.tbMobile, 0);
+            this.pnlRight.Controls.SetChildIndex(this.tbBirthCertificate, 0);
+            this.pnlRight.Controls.SetChildIndex(this.tbLastName, 0);
+            this.pnlRight.Controls.SetChildIndex(this.tbFirstName, 0);
+            this.pnlRight.Controls.SetChildIndex(this.label5, 0);
+            this.pnlRight.Controls.SetChildIndex(this.label4, 0);
+            this.pnlRight.Controls.SetChildIndex(this.label3, 0);
+            this.pnlRight.Controls.SetChildIndex(this.label2, 0);
+            this.pnlRight.Controls.SetChildIndex(this.label1, 0);
+            this.pnlRight.Controls.SetChildIndex(this.btnEditProfile, 0);
+            this.pnlRight.Controls.SetChildIndex(this.pnlucDynamicFild, 0);
             // 
             // pnlUserControl
             // 
@@ -77,8 +77,8 @@
             this.Name = "frmStudent";
             this.Text = "پروفایل دانشجو";
             this.Load += new System.EventHandler(this.frmStudent_Load);
-            this.pnlBaseInfo.ResumeLayout(false);
-            this.pnlBaseInfo.PerformLayout();
+            this.pnlRight.ResumeLayout(false);
+            this.pnlRight.PerformLayout();
             this.pnlUserControl.ResumeLayout(false);
             this.ResumeLayout(false);
 
