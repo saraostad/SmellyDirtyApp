@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SmellyDirtyApp.CalcSalaryVisitor;
+using SmellyDirtyApp.Models;
 
 namespace SmellyDirtyApp
 {
@@ -17,32 +19,32 @@ namespace SmellyDirtyApp
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnEditProfile_Click(object sender, EventArgs e)
         {
             EditProfile();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnExitProgram_Click(object sender, EventArgs e)
         {
             Application.ExitThread();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void btnCloseForm_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnOfferCourses_Click(object sender, EventArgs e)
         {
             OfferCourses();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void btnInsertResult_Click(object sender, EventArgs e)
         {
             InsertResult();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void btnCalculateSalary_Click(object sender, EventArgs e)
         {
             CalculateSalary();
         }
@@ -65,6 +67,24 @@ namespace SmellyDirtyApp
         private void CalculateSalary()
         {
             //Calculate salary based on work years.
+            if (!string.IsNullOrWhiteSpace(txtWorkDay.Text))
+            {
+                IElement employee = new Employee();
+                employee.WorkingDay = Convert.ToInt32(txtWorkDay.Text);
+
+                var fine = new FinancialSystem();
+                fine.Attach(employee);
+
+                MessageBox.Show(fine.Accept(new SalaryCalculator()).ToString());
+            }
+            else MessageBox.Show("اطلاعات روز کارکرد را وارد نمایید");
+
+
+        }
+
+        private void EmployeeForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

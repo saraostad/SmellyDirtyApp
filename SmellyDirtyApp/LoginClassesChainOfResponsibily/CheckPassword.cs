@@ -23,7 +23,7 @@ namespace SmellyDirtyApp.LoginClassesChainOfResponsibily
             RealChecker r = new RealChecker();
             if (!r.CheckPassword(_txt, _user))
             {
-                MessageBox.Show("کلمه عبور صحیح نمی باشد.");
+                MessageBox.Show("نام کاربری یا کلمه عبور صحیح نمی باشد.");
                 return;
             }
 

@@ -24,10 +24,8 @@ namespace SmellyDirtyApp.LoginClassesChainOfResponsibily
             RealChecker r = new RealChecker();
             if (!r.CheckUserName(txt, user))
             {
-                MessageBox.Show("نام کاربری صحیح نمی باشد.");
-                return;
+                //MessageBox.Show("نام کاربری صحیح نمی باشد.");
             }
-            
             this.Next(status);
         }
     }

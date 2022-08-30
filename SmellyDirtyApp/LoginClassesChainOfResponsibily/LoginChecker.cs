@@ -19,7 +19,7 @@ namespace SmellyDirtyApp
 
         protected LoginChecker successor;
 
-        abstract public void Check(string txtInput,User user,loginStatus status);
+        abstract public void Check(string txtInput, User user,loginStatus status);
         
         public void SuccessWith(LoginChecker successor)
         {

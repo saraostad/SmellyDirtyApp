@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static SmellyDirtyApp.Models.RoleTypes;
 
 namespace SmellyDirtyApp.LoginClassesChainOfResponsibily
 {
-    internal class RealChecker : loginStatus
+    
+internal class RealChecker : loginStatus
     {
         public override bool CheckPassword(string txtInput, User model)
         {
@@ -22,17 +24,17 @@ namespace SmellyDirtyApp.LoginClassesChainOfResponsibily
         {
             switch (model.Role)
             {
-                case "Student":
+                case RoleType.Student:
                     {
                         new StudentForm().ShowDialog();
                         return true;
                     }
-                case "Teacher":
+                case RoleType.Teacher:
                     {
                         new TeacherForm().ShowDialog();
                         return true;
                     }
-                case "Employee":
+                case RoleType.Employee:
                     {
                         new EmployeeForm().ShowDialog();
                         return true;

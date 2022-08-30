@@ -22,6 +22,7 @@ namespace SmellyDirtyApp
         {
             if (!string.IsNullOrWhiteSpace(txtUsername.Text) && !string.IsNullOrWhiteSpace(txtPassword.Text))
             {
+
                 foreach (var user in UsersDatabase)
                 {
                     CheckUserName userName = new CheckUserName(txtUsername.Text, user);
@@ -34,6 +35,7 @@ namespace SmellyDirtyApp
                     RealChecker status = new RealChecker();
                     userName.Check(txtUsername.Text, user, status);
 
+                    
                     //if (user.Username == txtUsername.Text)
                     //{
                     //    if (user.Password == txtPassword.Text)
@@ -63,20 +65,25 @@ namespace SmellyDirtyApp
                     //    }
                     //}
                 }
-                //MessageBox.Show("نام کاربری و کلمه عبور صحیح نمیباشد.");
-                //return;
+                MessageBox.Show("نام کاربری و کلمه عبور صحیح نمیباشد.");
+                return;
             }
-            //MessageBox.Show("نام کاربری و کلمه عبور اجباری است..");
-            //return;
+            MessageBox.Show("نام کاربری و کلمه عبور اجباری است..");
+            return;
         }
 
         private List<User> UsersDatabase = new List<User>
         {
-            new User("std1", "123", "Student"),
-            new User("tch1", "456", "Teacher"),
-            new User("emp1", "789", "Employee"),
-            new User("man1", "1234", "Manager")
+            new User("std1", "123", Models.RoleTypes.RoleType.Student),
+            new User("tch1", "456", Models.RoleTypes.RoleType.Teacher),
+            new User("emp1", "789", Models.RoleTypes.RoleType.Employee),
+            new User("man1", "1234", Models.RoleTypes.RoleType.Manager)
         };
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            Application.ExitThread();
+        }
     }
 
     //internal class User

@@ -28,159 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.tbFirstName = new System.Windows.Forms.TextBox();
-            this.tbLastName = new System.Windows.Forms.TextBox();
-            this.tbBirthCertificate = new System.Windows.Forms.TextBox();
-            this.tbNationalCode = new System.Windows.Forms.TextBox();
-            this.tbMobile = new System.Windows.Forms.TextBox();
             this.tbEmployeeCode = new System.Windows.Forms.TextBox();
-            this.btnPresentClass = new System.Windows.Forms.Button();
-            this.btnEditProfile = new System.Windows.Forms.Button();
+            this.btnOfferCourses = new System.Windows.Forms.Button();
             this.btnExitProgram = new System.Windows.Forms.Button();
             this.btnCloseForm = new System.Windows.Forms.Button();
             this.btnRegisterScore = new System.Windows.Forms.Button();
             this.btnCalsSalary = new System.Windows.Forms.Button();
             this.txtWorkHours = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
+            this.pnlBaseInfo = new System.Windows.Forms.Panel();
+            this.pnlBaseInfo.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(151, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(23, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "نام ";
-            // 
-            // label2
-            // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(151, 45);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "نام خانوادگی";
-            // 
-            // label3
-            // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(151, 71);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "شماره شناسنامه";
-            // 
-            // label4
-            // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(151, 97);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(40, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "کد ملی";
-            // 
-            // label5
-            // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(151, 123);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "شماره همراه";
             // 
             // label6
             // 
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(151, 149);
+            this.label6.Location = new System.Drawing.Point(143, 29);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(62, 13);
             this.label6.TabIndex = 5;
             this.label6.Text = "کد کارمندی";
             // 
-            // tbFirstName
-            // 
-            this.tbFirstName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbFirstName.Location = new System.Drawing.Point(36, 16);
-            this.tbFirstName.Name = "tbFirstName";
-            this.tbFirstName.Size = new System.Drawing.Size(100, 20);
-            this.tbFirstName.TabIndex = 7;
-            // 
-            // tbLastName
-            // 
-            this.tbLastName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbLastName.Location = new System.Drawing.Point(36, 42);
-            this.tbLastName.Name = "tbLastName";
-            this.tbLastName.Size = new System.Drawing.Size(100, 20);
-            this.tbLastName.TabIndex = 8;
-            // 
-            // tbBirthCertificate
-            // 
-            this.tbBirthCertificate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbBirthCertificate.Location = new System.Drawing.Point(36, 68);
-            this.tbBirthCertificate.Name = "tbBirthCertificate";
-            this.tbBirthCertificate.Size = new System.Drawing.Size(100, 20);
-            this.tbBirthCertificate.TabIndex = 9;
-            // 
-            // tbNationalCode
-            // 
-            this.tbNationalCode.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbNationalCode.Location = new System.Drawing.Point(36, 94);
-            this.tbNationalCode.Name = "tbNationalCode";
-            this.tbNationalCode.Size = new System.Drawing.Size(100, 20);
-            this.tbNationalCode.TabIndex = 10;
-            // 
-            // tbMobile
-            // 
-            this.tbMobile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbMobile.Location = new System.Drawing.Point(36, 120);
-            this.tbMobile.Name = "tbMobile";
-            this.tbMobile.Size = new System.Drawing.Size(100, 20);
-            this.tbMobile.TabIndex = 11;
-            // 
             // tbEmployeeCode
             // 
             this.tbEmployeeCode.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbEmployeeCode.Location = new System.Drawing.Point(36, 146);
+            this.tbEmployeeCode.Location = new System.Drawing.Point(28, 26);
             this.tbEmployeeCode.Name = "tbEmployeeCode";
             this.tbEmployeeCode.Size = new System.Drawing.Size(100, 20);
             this.tbEmployeeCode.TabIndex = 12;
             // 
-            // btnPresentClass
+            // btnOfferCourses
             // 
-            this.btnPresentClass.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnPresentClass.Location = new System.Drawing.Point(21, 19);
-            this.btnPresentClass.Name = "btnPresentClass";
-            this.btnPresentClass.Size = new System.Drawing.Size(91, 23);
-            this.btnPresentClass.TabIndex = 13;
-            this.btnPresentClass.Text = "ارائه کلاس";
-            this.btnPresentClass.UseVisualStyleBackColor = true;
-            this.btnPresentClass.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btnEditProfile
-            // 
-            this.btnEditProfile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnEditProfile.Location = new System.Drawing.Point(36, 183);
-            this.btnEditProfile.Name = "btnEditProfile";
-            this.btnEditProfile.Size = new System.Drawing.Size(91, 23);
-            this.btnEditProfile.TabIndex = 14;
-            this.btnEditProfile.Text = "ویرایش پروفایل";
-            this.btnEditProfile.UseVisualStyleBackColor = true;
-            this.btnEditProfile.Click += new System.EventHandler(this.button2_Click);
+            this.btnOfferCourses.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnOfferCourses.Location = new System.Drawing.Point(21, 19);
+            this.btnOfferCourses.Name = "btnOfferCourses";
+            this.btnOfferCourses.Size = new System.Drawing.Size(91, 23);
+            this.btnOfferCourses.TabIndex = 13;
+            this.btnOfferCourses.Text = "ارائه کلاس";
+            this.btnOfferCourses.UseVisualStyleBackColor = true;
+            this.btnOfferCourses.Click += new System.EventHandler(this.btnOfferCourses_Click);
             // 
             // btnExitProgram
             // 
@@ -191,7 +79,7 @@
             this.btnExitProgram.TabIndex = 15;
             this.btnExitProgram.Text = "خروج از سیستم";
             this.btnExitProgram.UseVisualStyleBackColor = true;
-            this.btnExitProgram.Click += new System.EventHandler(this.button3_Click);
+            this.btnExitProgram.Click += new System.EventHandler(this.btnExitProgram_Click);
             // 
             // btnCloseForm
             // 
@@ -202,7 +90,7 @@
             this.btnCloseForm.TabIndex = 16;
             this.btnCloseForm.Text = "خروج";
             this.btnCloseForm.UseVisualStyleBackColor = true;
-            this.btnCloseForm.Click += new System.EventHandler(this.button4_Click);
+            this.btnCloseForm.Click += new System.EventHandler(this.btnCloseForm_Click);
             // 
             // btnRegisterScore
             // 
@@ -213,7 +101,7 @@
             this.btnRegisterScore.TabIndex = 17;
             this.btnRegisterScore.Text = "ثبت نمرات";
             this.btnRegisterScore.UseVisualStyleBackColor = true;
-            this.btnRegisterScore.Click += new System.EventHandler(this.button5_Click);
+            this.btnRegisterScore.Click += new System.EventHandler(this.btnRegisterScore_Click);
             // 
             // btnCalsSalary
             // 
@@ -224,7 +112,7 @@
             this.btnCalsSalary.TabIndex = 18;
             this.btnCalsSalary.Text = "محاسبه حقوق";
             this.btnCalsSalary.UseVisualStyleBackColor = true;
-            this.btnCalsSalary.Click += new System.EventHandler(this.button6_Click);
+            this.btnCalsSalary.Click += new System.EventHandler(this.btnCalsSalary_Click);
             // 
             // txtWorkHours
             // 
@@ -244,72 +132,49 @@
             this.label7.TabIndex = 20;
             this.label7.Text = "ساعات آموزش";
             // 
-            // panel1
+            // pnlBaseInfo
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.tbFirstName);
-            this.panel1.Controls.Add(this.btnEditProfile);
-            this.panel1.Controls.Add(this.tbLastName);
-            this.panel1.Controls.Add(this.tbBirthCertificate);
-            this.panel1.Controls.Add(this.tbEmployeeCode);
-            this.panel1.Controls.Add(this.tbNationalCode);
-            this.panel1.Controls.Add(this.tbMobile);
-            this.panel1.Location = new System.Drawing.Point(323, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(246, 226);
-            this.panel1.TabIndex = 21;
+            this.pnlBaseInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlBaseInfo.Controls.Add(this.label6);
+            this.pnlBaseInfo.Controls.Add(this.tbEmployeeCode);
+            this.pnlBaseInfo.Location = new System.Drawing.Point(323, 0);
+            this.pnlBaseInfo.Name = "pnlBaseInfo";
+            this.pnlBaseInfo.Size = new System.Drawing.Size(246, 226);
+            this.pnlBaseInfo.TabIndex = 21;
             // 
             // TeacherForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(564, 226);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(564, 227);
+            this.Controls.Add(this.pnlBaseInfo);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtWorkHours);
             this.Controls.Add(this.btnCalsSalary);
             this.Controls.Add(this.btnRegisterScore);
             this.Controls.Add(this.btnCloseForm);
             this.Controls.Add(this.btnExitProgram);
-            this.Controls.Add(this.btnPresentClass);
+            this.Controls.Add(this.btnOfferCourses);
             this.Name = "TeacherForm";
             this.Text = "پروفایل اساتید";
             this.Load += new System.EventHandler(this.TeacherForm_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.pnlBaseInfo.ResumeLayout(false);
+            this.pnlBaseInfo.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox tbFirstName;
-        private System.Windows.Forms.TextBox tbLastName;
-        private System.Windows.Forms.TextBox tbBirthCertificate;
-        private System.Windows.Forms.TextBox tbNationalCode;
-        private System.Windows.Forms.TextBox tbMobile;
         private System.Windows.Forms.TextBox tbEmployeeCode;
-        private System.Windows.Forms.Button btnPresentClass;
-        private System.Windows.Forms.Button btnEditProfile;
+        private System.Windows.Forms.Button btnOfferCourses;
         private System.Windows.Forms.Button btnExitProgram;
         private System.Windows.Forms.Button btnCloseForm;
         private System.Windows.Forms.Button btnRegisterScore;
         private System.Windows.Forms.Button btnCalsSalary;
         private System.Windows.Forms.TextBox txtWorkHours;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnlBaseInfo;
     }
 }

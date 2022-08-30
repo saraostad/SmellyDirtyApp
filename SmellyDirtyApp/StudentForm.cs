@@ -17,27 +17,27 @@ namespace SmellyDirtyApp
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnEditProfile_Click(object sender, EventArgs e)
         {
             EditProfile();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnExitProgram_Click(object sender, EventArgs e)
         {
             Application.ExitThread();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void btnCloseForm_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnSelectCourse_Click(object sender, EventArgs e)
         {
             SelectCourses();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void btnSeeResult_Click(object sender, EventArgs e)
         {
             SeeResult();
         }

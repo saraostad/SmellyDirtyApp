@@ -126,7 +126,7 @@
             this.btnSelectCourse.TabIndex = 13;
             this.btnSelectCourse.Text = "انتخاب واحد";
             this.btnSelectCourse.UseVisualStyleBackColor = true;
-            this.btnSelectCourse.Click += new System.EventHandler(this.button1_Click);
+            this.btnSelectCourse.Click += new System.EventHandler(this.btnSelectCourse_Click);
             // 
             // btnSeeResult
             // 
@@ -137,7 +137,7 @@
             this.btnSeeResult.TabIndex = 17;
             this.btnSeeResult.Text = "دیدن کارنامه";
             this.btnSeeResult.UseVisualStyleBackColor = true;
-            this.btnSeeResult.Click += new System.EventHandler(this.button5_Click);
+            this.btnSeeResult.Click += new System.EventHandler(this.btnSeeResult_Click);
             // 
             // tbMobile
             // 
@@ -188,7 +188,7 @@
             this.btnCloseForm.TabIndex = 25;
             this.btnCloseForm.Text = "خروج";
             this.btnCloseForm.UseVisualStyleBackColor = true;
-            this.btnCloseForm.Click += new System.EventHandler(this.button4_Click);
+            this.btnCloseForm.Click += new System.EventHandler(this.btnCloseForm_Click);
             // 
             // btnExitProgram
             // 
@@ -199,7 +199,7 @@
             this.btnExitProgram.TabIndex = 24;
             this.btnExitProgram.Text = "خروج از سیستم";
             this.btnExitProgram.UseVisualStyleBackColor = true;
-            this.btnExitProgram.Click += new System.EventHandler(this.button3_Click);
+            this.btnExitProgram.Click += new System.EventHandler(this.btnExitProgram_Click);
             // 
             // btnEditProfile
             // 
@@ -210,7 +210,7 @@
             this.btnEditProfile.TabIndex = 23;
             this.btnEditProfile.Text = "ویرایش پروفایل";
             this.btnEditProfile.UseVisualStyleBackColor = true;
-            this.btnEditProfile.Click += new System.EventHandler(this.button2_Click);
+            this.btnEditProfile.Click += new System.EventHandler(this.btnEditProfile_Click);
             // 
             // panel1
             // 
