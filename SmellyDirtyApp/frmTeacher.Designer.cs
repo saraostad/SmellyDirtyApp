@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label6 = new System.Windows.Forms.Label();
-            this.tbEmployeeCode = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtWorkHours = new System.Windows.Forms.TextBox();
             this.btnCalsSalary = new System.Windows.Forms.Button();
@@ -41,30 +39,16 @@
             // 
             // pnlBaseInfo
             // 
-            this.pnlBaseInfo.Controls.Add(this.label6);
-            this.pnlBaseInfo.Controls.Add(this.tbEmployeeCode);
             this.pnlBaseInfo.Location = new System.Drawing.Point(312, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.tbNationalCode, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.tbMobile, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.tbBirthCertificate, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.tbLastName, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.tbFirstName, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.label5, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.label4, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.label3, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.label2, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.label1, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.btnEditProfile, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.tbEmployeeCode, 0);
-            this.pnlBaseInfo.Controls.SetChildIndex(this.label6, 0);
+            this.pnlBaseInfo.Size = new System.Drawing.Size(232, 262);
             // 
             // btnCloseForm
             // 
-            this.btnCloseForm.Location = new System.Drawing.Point(184, 217);
+            this.btnCloseForm.Location = new System.Drawing.Point(181, 227);
             // 
             // btnExitProgram
             // 
-            this.btnExitProgram.Location = new System.Drawing.Point(15, 217);
+            this.btnExitProgram.Location = new System.Drawing.Point(12, 227);
             // 
             // tbMobile
             // 
@@ -77,25 +61,10 @@
             this.pnlUserControl.Controls.Add(this.btnCalsSalary);
             this.pnlUserControl.Controls.Add(this.btnRegisterScore);
             this.pnlUserControl.Controls.Add(this.btnOfferCourses);
-            this.pnlUserControl.Size = new System.Drawing.Size(312, 190);
+            this.pnlUserControl.Size = new System.Drawing.Size(312, 169);
             // 
-            // label6
+            // pnlCalculateSalary
             // 
-            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(136, 154);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(62, 13);
-            this.label6.TabIndex = 23;
-            this.label6.Text = "کد کارمندی";
-            // 
-            // tbEmployeeCode
-            // 
-            this.tbEmployeeCode.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbEmployeeCode.Location = new System.Drawing.Point(21, 151);
-            this.tbEmployeeCode.Name = "tbEmployeeCode";
-            this.tbEmployeeCode.Size = new System.Drawing.Size(100, 20);
-            this.tbEmployeeCode.TabIndex = 24;
             // 
             // label7
             // 
@@ -151,7 +120,7 @@
             // frmTeacher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.ClientSize = new System.Drawing.Size(544, 252);
+            this.ClientSize = new System.Drawing.Size(544, 262);
             this.Name = "frmTeacher";
             this.Text = "پروفایل استاتید";
             this.pnlBaseInfo.ResumeLayout(false);
@@ -163,9 +132,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox tbEmployeeCode;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtWorkHours;
         private System.Windows.Forms.Button btnCalsSalary;

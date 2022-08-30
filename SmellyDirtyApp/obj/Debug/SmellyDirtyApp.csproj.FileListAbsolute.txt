@@ -12,20 +12,6 @@ D:\Projects\ArmanTests\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.cs
 D:\Projects\ArmanTests\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.csproj.CoreCompileInputs.cache
 D:\Projects\ArmanTests\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.exe
 D:\Projects\ArmanTests\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.pdb
-H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\bin\Debug\SmellyDirtyApp.exe.config
-H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\bin\Debug\SmellyDirtyApp.exe
-H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\bin\Debug\SmellyDirtyApp.pdb
-H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.csproj.AssemblyReference.cache
-H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.csproj.SuggestedBindingRedirects.cache
-H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.EmployeeForm.resources
-H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.Properties.Resources.resources
-H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.StudentForm.resources
-H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.TeacherForm.resources
-H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.csproj.GenerateResource.cache
-H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.csproj.CoreCompileInputs.cache
-H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.exe
-H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.pdb
-H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.Login.resources
 G:\Gang Of X\Exam\SmellyDirtyApp\SmellyDirtyApp\bin\Debug\SmellyDirtyApp.exe.config
 G:\Gang Of X\Exam\SmellyDirtyApp\SmellyDirtyApp\bin\Debug\SmellyDirtyApp.exe
 G:\Gang Of X\Exam\SmellyDirtyApp\SmellyDirtyApp\bin\Debug\SmellyDirtyApp.pdb
@@ -43,3 +29,32 @@ G:\Gang Of X\Exam\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.pdb
 G:\Gang Of X\Exam\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.UCPersonBase.resources
 G:\Gang Of X\Exam\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.ucTeacher.resources
 G:\Gang Of X\Exam\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.BaseForm.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\bin\Debug\SmellyDirtyApp.exe.config
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\bin\Debug\SmellyDirtyApp.exe
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\bin\Debug\SmellyDirtyApp.pdb
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.csproj.AssemblyReference.cache
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.csproj.SuggestedBindingRedirects.cache
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.BaseForm.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.EmployeeForm.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.frmEmployee.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.frmStudent.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.frmTeacher.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.Login.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.Properties.Resources.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.StudentForm.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.TeacherForm.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.ucbtnCalcSalary.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.ucWorkingHoure.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.ucBasicInfo_EmployeeCode.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.ucBasicInfo_StudentCode.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.ucPersonBase.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.csproj.GenerateResource.cache
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.csproj.CoreCompileInputs.cache
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.exe
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.pdb
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.btn.ucbtnBase.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.ucbtnChangeProfile.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.ucbtnInsertPoint.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.ucbtnOfferClass.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.btn.ucbtnChangeProfile.resources
+H:\Gang Of X\SmellyDirtyApp\SmellyDirtyApp\obj\Debug\SmellyDirtyApp.UserControls.btn.ucbtnOfferClass.resources

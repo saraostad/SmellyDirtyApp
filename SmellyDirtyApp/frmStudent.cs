@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SmellyDirtyApp.UserControls;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +14,15 @@ namespace SmellyDirtyApp
         public frmStudent()
         {
             InitializeComponent();
+        }
+
+        private void frmStudent_Load(object sender, EventArgs e)
+        {
+            ucBasicInfo_StudentCode ucDynamic = new ucBasicInfo_StudentCode();
+            pnlucDynamicFild.Controls.Add(ucDynamic);
+            ucDynamic.Dock = DockStyle.Fill;
+
+
         }
     }
 }

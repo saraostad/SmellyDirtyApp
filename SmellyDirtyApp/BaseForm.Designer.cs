@@ -192,7 +192,7 @@
             this.pnlUserControl.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlUserControl.Location = new System.Drawing.Point(0, 0);
             this.pnlUserControl.Name = "pnlUserControl";
-            this.pnlUserControl.Size = new System.Drawing.Size(272, 190);
+            this.pnlUserControl.Size = new System.Drawing.Size(272, 202);
             this.pnlUserControl.TabIndex = 25;
             // 
             // BaseForm

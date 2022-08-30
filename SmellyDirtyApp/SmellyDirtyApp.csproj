@@ -113,17 +113,71 @@
     <Compile Include="StudentForm.Designer.cs">
       <DependentUpon>StudentForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\btn\ucbtnBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\btn\ucbtnBase.Designer.cs">
+      <DependentUpon>ucbtnBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\btn\--ucbtnCalcSalary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\btn\--ucbtnCalcSalary.Designer.cs">
+      <DependentUpon>--ucbtnCalcSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\btn\--ucbtnChangeProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\btn\--ucbtnChangeProfile.Designer.cs">
+      <DependentUpon>--ucbtnChangeProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\btn\--ucbtnInsertPoint.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\btn\--ucbtnInsertPoint.Designer.cs">
+      <DependentUpon>--ucbtnInsertPoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\btn\--ucbtnOfferClass.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\btn\--ucbtnOfferClass.Designer.cs">
+      <DependentUpon>--ucbtnOfferClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\btn\ucbtnChangeProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\btn\ucbtnChangeProfile.Designer.cs">
+      <DependentUpon>ucbtnChangeProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\btn\ucbtnOfferClass.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\btn\ucbtnOfferClass.Designer.cs">
+      <DependentUpon>ucbtnOfferClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\textbox\ucWorkingHoure.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\textbox\ucWorkingHoure.Designer.cs">
+      <DependentUpon>ucWorkingHoure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\textbox\ucBasicInfo_Code.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\textbox\ucBasicInfo_Code.Designer.cs">
+      <DependentUpon>ucBasicInfo_Code.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\textbox\ucBasicInfo_StudentCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\textbox\ucBasicInfo_StudentCode.Designer.cs">
+      <DependentUpon>ucBasicInfo_StudentCode.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\ucPersonBase.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControls\ucPersonBase.Designer.cs">
       <DependentUpon>ucPersonBase.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\ucTeacher.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\ucTeacher.Designer.cs">
-      <DependentUpon>ucTeacher.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="BaseForm.resx">
       <DependentUpon>BaseForm.cs</DependentUpon>
@@ -158,11 +212,38 @@
     <EmbeddedResource Include="TeacherForm.resx">
       <DependentUpon>TeacherForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\btn\ucbtnBase.resx">
+      <DependentUpon>ucbtnBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\btn\--ucbtnCalcSalary.resx">
+      <DependentUpon>--ucbtnCalcSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\btn\--ucbtnChangeProfile.resx">
+      <DependentUpon>--ucbtnChangeProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\btn\--ucbtnInsertPoint.resx">
+      <DependentUpon>--ucbtnInsertPoint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\btn\--ucbtnOfferClass.resx">
+      <DependentUpon>--ucbtnOfferClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\btn\ucbtnChangeProfile.resx">
+      <DependentUpon>ucbtnChangeProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\btn\ucbtnOfferClass.resx">
+      <DependentUpon>ucbtnOfferClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\textbox\ucWorkingHoure.resx">
+      <DependentUpon>ucWorkingHoure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\textbox\ucBasicInfo_Code.resx">
+      <DependentUpon>ucBasicInfo_Code.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\textbox\ucBasicInfo_StudentCode.resx">
+      <DependentUpon>ucBasicInfo_StudentCode.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\ucPersonBase.resx">
       <DependentUpon>ucPersonBase.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\ucTeacher.resx">
-      <DependentUpon>ucTeacher.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

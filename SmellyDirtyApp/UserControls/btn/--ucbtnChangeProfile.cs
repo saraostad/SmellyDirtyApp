@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace SmellyDirtyApp.UserControls
 {
-    public partial class ucTeacher : UserControl
+    public partial class ucbtnChangeProfile : UserControl
     {
-        public ucTeacher()  : base()
+        public ucbtnChangeProfile()
         {
-            InitializeComponent();            
+            InitializeComponent();
         }
     }
 }

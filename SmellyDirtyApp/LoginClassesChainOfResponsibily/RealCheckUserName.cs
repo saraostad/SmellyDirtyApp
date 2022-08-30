@@ -26,17 +26,17 @@ internal class RealChecker : loginStatus
             {
                 case RoleType.Student:
                     {
-                        new StudentForm().ShowDialog();
+                        new frmStudent().ShowDialog();
                         return true;
                     }
                 case RoleType.Teacher:
                     {
-                        new TeacherForm().ShowDialog();
+                        new frmTeacher().ShowDialog();
                         return true;
                     }
                 case RoleType.Employee:
                     {
-                        new EmployeeForm().ShowDialog();
+                        new frmEmployee().ShowDialog();
                         return true;
                     }
                 default:
